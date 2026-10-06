@@ -10,25 +10,11 @@ When moving the Camera off of the Cat Game Object, the camera remains stationary
 
 
 
-\*\*Itch Page:\*\* https://blucyko.itch.io/gdim-33-week-1-activity
+Itch Page: https://blucyko.itch.io/gdim-33-week-1-activity
 
 ### W2
 
-1. Why are the r, g, and b variables floats instead of ints, bools, or strings?
-
-The r, g, and b variables are floats instead of ints, bools, or strings because these values involve fractional values which floats represent.
-
-
-
-2\. Why is the \_bounce variable an int instead of a float, bool, or string?
-
-The \_bounce variable is an int instead of a float, bool, or string because this variable involves whole numbers which int represents.
-
-
-
-3\. The error you got after Step 4 of Part 2 told you something useful about why that line of code was broken- what was it?
-
-The error I got after Step 4 of Part 2 said Assets\\W2\\Scripts\\Ball.cs(67,18): error CS1002: ; expected. This indicated that this line was missing a ; to end the line of code indicating a syntax error.
+The r, g, and b variables are floats instead of ints, bools, or strings because these values involve fractional values which floats represent. The \_bounce variable is an int instead of a float, bool, or string because this variable involves whole numbers which int represents. The error I got after Step 4 of Part 2 said Assets\\W2\\Scripts\\Ball.cs(67,18): error CS1002: ; expected. This indicated that this line was missing a ; to end the line of code indicating a syntax error.
 
 
 
