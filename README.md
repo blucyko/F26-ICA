@@ -10,7 +10,7 @@ When moving the Camera off of the Cat Game Object, the camera remains stationary
 
 
 
-Itch Page: https://blucyko.itch.io/gdim-33-week-1-activity
+**Itch Page:** https://blucyko.itch.io/gdim-33-week-1-activity
 
 ### W2
 
