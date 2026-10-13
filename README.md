@@ -40,10 +40,10 @@ I would make the parameters of DidPlayerHitBeat use a float based on the time th
 **With your table mates, come up with a metaphor to explain the relationship between classes and Components with a metaphor. Also describe how methods and member variables factor into that metaphor.  Remember that classes are templates that can become Components; member variables are traits of each class; and methods are things the class can do.**  
 With my table mates, we decided that a metaphor to explain the relationship between classes and components would be 
 
-**Class:** Taco shell
-**Component:** Full taco (from Taco Bell)
-**Member variables:** Ingredients
-**Methods:** How you want the taco
+**Class:** Taco shell  
+**Component:** Full taco (from Taco Bell)  
+**Member variables:** Ingredients  
+**Methods:** How you want the taco  
 
 ## Activity 3 methods coding activity
 **1. Why do you think the balls get extremely bright, especially in the Scene, if they bounce too many times?**  
