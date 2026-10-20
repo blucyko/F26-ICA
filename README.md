@@ -50,7 +50,7 @@ With my table mates, we decided that a metaphor to explain the relationship betw
 I think the balls get extremely bright if they bounce too many times due to ballRenderer.color in step 9 being affected by the color multiplier, which goes to a higher value when the ball moves at a certain speed.
 
 ### W4
-Table #4
+Table #4  
 **1. What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?**  
 We added the Rigidbodies to the Cat and SoccerBall game objects since those objects require physics interactions. We also checked IsTrigger on the Goal game object since the goal detects whether the SoccerBall collider enters the Goal's collider.
 
