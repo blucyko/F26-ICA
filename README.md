@@ -57,6 +57,16 @@ We added the Rigidbodies to the Cat and SoccerBall game objects since those obje
 **IF your game did not work perfectly the first time you tested it, talk about what you had to fix.**  
 The first time I tested it, the Cat started rotating out of place. To fix this, I set the rotation to freeze on the X and Z axes.
 
+### W6
+**1. What member variable(s) does this class need?**  
+This class needs a Transform and a NavMeshAgent member variable.
+
+**2. What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?**  
+This class needs a Start() method.
+
+**3. What should the method(s) do?**  
+The Start() method should use GetComponent<> to get the NavMeshAgent Component on the Deer GameObject and then set the destination of the NavMeshAgent member variable to the Transform of the target GameObject.
+
 ## Open-Source Assets
 
 ### W1
