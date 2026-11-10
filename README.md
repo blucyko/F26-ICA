@@ -67,6 +67,20 @@ This class needs a Start() method.
 **3. What should the method(s) do?**  
 The Start() method should use GetComponent<> to get the NavMeshAgent Component on the Deer GameObject and then set the destination of the NavMeshAgent member variable to the Transform of the target GameObject.
 
+### W7
+## Activity 1: Class resource guide
+**Category Assignment:** [Other tools](https://docs.google.com/document/d/1C6uCwfuqZOueFMv-xBgh9KSqakfdi0eeqCGhbDev6XM/edit?usp=sharing)
+
+## Activity 2: Pair Programming
+**1. What member variables does this class need?**  
+This class needs the speed, player GameObject, and isChasing member variables. The player member variable is due to the player transform in BatManager being private instead of public.
+
+**2. What methods does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?**  
+This class needs the startChase() and stopChase() methods. These are methods we write.
+
+**3. What should the method(s) do?**  
+startChase() needs to change isChasing to true and then move the bat game object towards the transform of the player game object. stopChase() needs to change isChasing to false.
+
 ## Open-Source Assets
 
 ### W1
