@@ -81,6 +81,10 @@ This class needs the startChase() and stopChase() methods. These are methods we 
 **3. What should the method(s) do?**  
 startChase() needs to change isChasing to true and then move the bat game object towards the transform of the player game object. stopChase() needs to change isChasing to false.
 
+### W8
+**1. What was wrong with step 2?**  
+The line transform.position(Vector3.forward * movement * _moveSpeed * Time.deltaTime); caused the muskrat to move only in a certain direction in world space whenever the player pressed W instead of moving forward in local space. To fix this transform.position was changed to transform.Translate in order to change the muskrat's direction in local space instead of world space.
+
 ## Open-Source Assets
 
 ### W1
