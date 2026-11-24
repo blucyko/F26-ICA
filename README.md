@@ -85,6 +85,14 @@ startChase() needs to change isChasing to true and then move the bat game object
 **1. What was wrong with step 2?**  
 The line transform.position(Vector3.forward * movement * _moveSpeed * Time.deltaTime); caused the muskrat to move only in a certain direction in world space whenever the player pressed W instead of moving forward in local space. To fix this transform.position was changed to transform.Translate in order to change the muskrat's direction in local space instead of world space.
 
+### W9
+## Activity 2D Final Google Drawing Plan:  
+**Category assignment(s):** [Cat and Tilemap](https://docs.google.com/drawings/d/1daxP7CnPmRKzXxTnv2pYLJuWIU2sRbkGUbbG39SUqpo/edit?usp=sharing)  
+
+## In-Class Progress  
+- Started laying out the environment with colliders  
+- Started coding Player.cs input for moving left/right, jumping, and kicking.  
+
 ## Open-Source Assets
 
 ### W1
